@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  <run>
+  <include name="Smoke Test"></include>
+  <exclude name="Regression Test"></exclude>
+  <include name="Integration Test"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="Contacts.CreateContactsTest"/>
+      <class name="Products.Create_AddProductsTest"/>
+      <class name="Login.LoginTest"/>
+      <class name="CampaignTest.CreateCampaignWithMandatoryFieldsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
