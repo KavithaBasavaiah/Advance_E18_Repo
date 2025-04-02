@@ -93,7 +93,7 @@ public class CreateCampaignWithMandatoryFieldsTest extends BaseClass_AS{
 	
 	//@Parameters("browser")
 	@Test()
-	public void createCampaignWithDateTest() throws IOException, InterruptedException {
+	public void createCampaignWithCloseDateTest() throws IOException, InterruptedException {
 		
 		JavaUtility jUtil = new JavaUtility();
 		int randomNum = jUtil.getRandomNum(10000);
