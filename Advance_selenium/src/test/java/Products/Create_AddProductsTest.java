@@ -36,7 +36,7 @@ public class Create_AddProductsTest extends BaseClass_AS {
 	//@Parameters("browser")
 	@Test()
    
-	public void createProductTest() throws IOException, InterruptedException {
+	public void addProductTest() throws IOException, InterruptedException {
 		
 		JavaUtility jutil=new JavaUtility();
 		int randNum = jutil.getRandomNum(10000);
