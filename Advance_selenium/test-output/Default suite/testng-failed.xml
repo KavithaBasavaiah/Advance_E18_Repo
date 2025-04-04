@@ -3,19 +3,20 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Login.LoginTest">
+      <class name="CampaignTest.CreateCampaignWithMandatoryFieldsTest">
         <methods>
+          <include name="createCampaignTest"/>
           <include name="afterTest"/>
           <include name="beforeSuite"/>
-          <include name="beforeTest"/>
           <include name="afterMethod"/>
-          <include name="createLoginTest"/>
+          <include name="beforeTest"/>
           <include name="beforeClass"/>
           <include name="beforeMethod"/>
           <include name="afterSuite"/>
+          <include name="createCampaignWithCloseDateTest"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- Login.LoginTest -->
+      </class> <!-- CampaignTest.CreateCampaignWithMandatoryFieldsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
